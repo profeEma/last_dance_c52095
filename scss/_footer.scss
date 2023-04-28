@@ -1,0 +1,13 @@
+footer{
+    background-image: linear-gradient(to top, #ffaacc, transparent);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media only screen and (max-width:768px){
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
